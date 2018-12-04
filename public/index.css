@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  height: 100vh;
+  display: flex;
+}
+
+#left {
+  width: 50vw;
+  background-color: black;
+}
+
+#terminal {
+  height: 100%;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+#run-buttons {
+  padding: 5px;
+	display: flex;
+	align-items: center;
+	background-color: #f8f8f8;
+}
+
+#run-buttons div {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#editor-wrap {
+  flex: 1;
+}
+
+#editor {
+  height: 100%;
+}
+
+a:link { color: #cccccc; }
+a:visited { color: #cccccc; }
+a:hover { color: #000000; }
+a:active { color: #ffcc00; }
