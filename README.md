@@ -18,7 +18,9 @@ RaspberryPiなどのボードコンピュータやローカルサーバで使え
 ./server.sh
 ```
 
-ブラウザで http://localhost:3001/ をひらく
+ブラウザで http://localhost:3001/ をひらく.
+
+RaspberryPiで動かしている場合は, http://raspberrypi.local:3001/ など.
 
 ## ライセンス
 
