@@ -6,12 +6,25 @@
 
 RaspberryPiなどのボードコンピュータやローカルサーバで使える, ちょっとしたプロジェクトをすぐはじめてすぐ走らせるためのIDE.
 
-## 起動方法
+## セットアップ
 
 ```sh
-npm install
-node main.js
+./setup.sh
 ```
+
+## 起動
+
+```sh
+./server.sh
+```
+
+ブラウザで http://localhost:3001/ をひらく
+
+## ライセンス
+
+MIT
+
+public/lib/fontawesome 以下の配布物は, public/lib/fontawesome/css/all.css に記載のライセンスに従います.
 
 ## 参考にしたサイト
 
