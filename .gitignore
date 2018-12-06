@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# libs installed by setup.sh
+public/lib/ace
+public/lib/socket.io
+public/lib/xterm
+
