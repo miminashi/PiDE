@@ -1,5 +1,6 @@
 var os = require('os');
 var fs = require('fs');
+var path = require('path');
 var pty = require('node-pty');
 var socketio = require('socket.io')
 
@@ -63,7 +64,7 @@ sock.on('connect', function(s) {
     cols: 80,
     rows: 24,
     //cwd: process.env.HOME,
-    cwd: '/Users/miminashi/projects/pide/sketch',
+    cwd: path.join(__dirname, 'sketch'),
     env: process.env
   });
 
@@ -82,3 +83,4 @@ sock.on('connect', function(s) {
 });
 
 server.listen(3001);
+console.log("PiDE is listening to PORT:" + server.address().port);

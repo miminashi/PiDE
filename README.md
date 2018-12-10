@@ -6,13 +6,15 @@
 
 RaspberryPiなどのボードコンピュータやローカルサーバで使える, ちょっとしたプロジェクトをすぐはじめてすぐ走らせるためのIDE.
 
-## セットアップ
+## ローカルで起動する
+
+### セットアップ
 
 ```sh
 ./setup.sh
 ```
 
-## 起動
+### 起動
 
 ```sh
 ./server.sh
@@ -22,11 +24,23 @@ RaspberryPiなどのボードコンピュータやローカルサーバで使え
 
 RaspberryPiで動かしている場合は, http://raspberrypi.local:3001/ など.
 
+
+## Vagrantで起動する
+
+```sh
+./vagrant
+```
+
+ブラウザで http://localhost:3001/ をひらく.
+(Vagrantfileでポートフォワーディングが設定されている)
+
+
 ## ライセンス
 
 MIT
 
 public/lib/fontawesome 以下の配布物は, public/lib/fontawesome/css/all.css に記載のライセンスに従います.
+
 
 ## 参考にしたサイト
 
